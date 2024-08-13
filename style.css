@@ -1,0 +1,892 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+@font-face {
+    font-family: gilroysemibold;
+    src: url("/assets/fonts/Gilroy-SemiBold.ttf");
+}
+
+@font-face {
+    font-family:gilroybold ;
+    src: url("./assets/fonts/Gilroy-Bold.ttf");
+}
+@font-face{
+    font-family: gilroy;
+    src: url("./assets/fonts/Gilroy-Regular.ttf");
+}
+*{
+    margin: 0 !important;
+    padding: 0;
+}
+
+body{
+    font-family: "Rubik", sans-serif;
+}
+
+.nav-item a{
+    color: #161C2D important!;
+    font-family: gilroysemibold;
+}
+.navbar-brand{
+    color: #161C2D important!;
+
+}
+
+.get-started{
+    background-color: #473BF0;
+    color: #FFFFFF;
+    border:2px solid #473BF0;
+    font-family: gilroybold ;
+    font-size: 17px;
+}
+
+.get-started:hover{
+     background-color: white;
+     color: #473BF0;
+     border: 2px solid #473BF0 ;
+}
+
+.nav-item{
+    padding-left: 20px;
+    font-family: gilroysemibold;
+}
+
+.top-part{
+    background-image: url('assets/images/Bitmap.png');
+    padding-left:100px;
+    padding-top: 10px;
+    padding-right: 100px;
+    background-repeat: no-repeat;
+}
+.text-hero{
+    font-family: gilroysemibold;
+
+}
+
+.text-her02{
+    font-size: 60px;
+    width: 80%;
+    font-family:gilroysemibold ;
+}
+.text-her03{
+    width: 80%;
+    font-size: 19px;
+    color: #161C2D;
+    opacity: 40%;
+    font-family:gilroysemibold ;
+}
+
+/* card_service sections */
+.service_section{
+ padding-left: 6em;
+}
+.provide_services{
+    width: 600px;
+    font-size: 36px;
+}
+.service_text1{
+    font-size:24px;
+    font-weight: 700;
+    font-family:gilroysemibold ;
+}
+.service_text2{
+   
+   width: 80%;
+    opacity: 65%;
+    font-size: 17px;
+    font-family: gilroysemibold;
+    margin: auto !important;
+}
+.lrn_more{
+    font-size: 17px;
+}
+
+.card_one{
+    background-color: #68D585;
+    height: 500px;
+    padding-bottom: 3em;
+    width: 350px;
+    height: 483px;
+    
+}
+
+.card_two{
+    background-color: #473BF0;
+    height: 500px;
+    padding-bottom: 3em;
+    width: 350px;
+    height: 483px;
+}
+
+.programming_text1{
+    font-size:24px;
+    font-weight: 700;
+    font-family:gilroysemibold ;  
+}
+.programming_text2{
+    width: 80%;
+    opacity: 65%;
+    font-size: 17px;
+    font-family: gilroysemibold;
+    margin: auto !important;
+}
+
+.lrn_more2{
+    font-size: 17px;
+}
+
+.card_three{
+    background-color: #F64B4B;
+    height: 500px;
+    padding-bottom: 3em;
+    width: 350px;
+    height: 483px;
+    
+}
+.content_text1{
+    font-size:24px;
+    font-weight: 700;
+    font-family:gilroysemibold ;  
+}
+.content_text2{
+    width: 80%;
+    opacity: 65%;
+    font-size: 17px;
+    font-family: gilroysemibold;
+    margin: auto !important;
+}
+
+.lrn_more3{
+    font-size: 17px;
+}
+
+
+/* review section */
+.brainwave_review{
+    padding-left: 12em;
+}
+
+.edit_publish{
+    font-size: 24px;
+    font-family:gilroysemibold ;
+    width: 735px;
+}
+
+/* about section */
+.about{
+    width: 92vw;
+    margin: 0 !important;
+    padding-left: 7em;
+}
+
+.why_business_fails{
+    font-size: 36px;
+    font-family:gilroybold ;
+    width: 48%;
+}
+
+.about_us_images{
+    padding-top: 5em;
+}
+.about_us_text{
+    font-size: 17px;
+    font-family:gilroy ;
+    color: #161C2D;
+    opacity: 70%;
+    font-weight: 400;
+    width: 490px;
+    padding-top: 7em;
+}
+
+/* facts */
+.facts{
+    padding-left: 8em;
+}
+.fact_numbers{
+    font-size: 48px;
+    font-family:gilroybold ;
+    font-weight: 700;
+}
+.fact_number2{
+    width: 320px;
+    font-size: 19px;
+    font-family:gilroy ;
+    text-align: center;
+    color: #161C2D;
+    opacity: 70%;
+}
+
+
+/* why_choose_us_section */
+
+.choose_us_text{
+    font-size: 36px;
+    font-family: gilroysemibold;
+    width: 521px;
+    color: #161C2D;
+}
+.dedicated_note{
+font-size: 21px;
+font-family: gilroysemibold;
+font-weight: 700;
+
+
+}
+.business_information{
+padding-left: 10em;
+}
+
+
+
+.unique_blocks{
+   display: block;
+   font-size: 17px;
+   font-family:gilroy ;
+   width: 300px;
+   opacity: 70%;
+   
+}
+.lunch_project{
+    padding-left: 8em;
+}
+.project_lunch{
+    font-size: 32px;
+    font-family:gilroybold ;
+    font-weight: 700;
+
+}
+.build_a_page{
+    display: block;
+    font-size: 19px;
+    font-family:gilroy ;
+    width: 589px;
+    opacity: 70%;
+}
+.get_started_project_btn{
+    width: 200px;
+    height: 56px;
+    background-color: #473BF0;
+    border-radius: 10px;
+    color: white;
+    border: none;
+   margin-left: 15em !important;
+}
+
+
+/* work_section */
+
+.why_we_are_the_best{
+    font-size: 36px;
+    font-family: gilroybold;
+    width: 521px;
+
+}
+.work_layout {
+    padding-left: 5em;
+}
+.work_section{
+    padding-top: 10em;
+}
+.work_layout_text1{
+    font-size: 15px;
+    font-family: gilroy;
+    opacity: 80%;
+    padding-top: 3em;
+}
+.work_layout_text2{
+    font-size: 24px;
+    font-family:gilroybold ;
+    padding-top: 10px;
+
+}
+
+.web_development{
+    padding-top: 12em;
+}
+.see_all_btn{
+    color: #473BF0;
+    font-size: 21px;
+    font-family:gilroybold ;
+    font-weight: 700;
+
+
+}
+.see_all_con{
+    color: #473BF0;
+    padding-top: 5em;
+    padding-bottom: 10em;
+}
+
+/* Testiomonial section */
+
+.testimonial_section{
+    background-image: url(assets/images/BG\(1\).png);
+    height: 635px;
+    background-repeat: no-repeat;
+    padding-top: 10em;
+   
+}
+
+.testimonial_text1{
+    font-size: 13px;
+    font-family:gilroy ;
+    font-weight: 700;
+    color: #68D585;
+    text-transform: uppercase;
+    letter-spacing: 1.63px;
+}
+
+.testimonial_text2{
+    font-size: 36px;
+    font-family:gilroybold ;
+    font-weight: 700;
+    width: 740px;
+    color: white;
+    height: 132px;
+}
+
+.testimonial_name{
+    font-size: 17px;
+    font-weight: 700;
+    font-family:gilroybold ;
+    color: #FFFFFF;
+}
+.testimonial_position{
+  display: block;
+  font-size: 15px;
+  font-weight: 300;
+  font-family:gilroy ;
+  opacity: 65%;
+}
+
+
+/* footer section */
+.line2{
+    border-style: solid;
+    color: #161C2D;
+    height: 1px;
+    width: 80%;
+    border: 1px solid black;
+    
+}
+.lunch_project2{
+    padding-left: 8em;
+    margin-bottom: 5em !important;
+}
+.project_lunch2{
+    font-size: 32px;
+    font-family:gilroybold ;
+    font-weight: 700; 
+}
+.build_a_page2 {
+    display: block;
+    font-size: 19px;
+    font-family:gilroy ;
+    width: 589px;
+    opacity: 65%;
+}
+.get_started_project_btn2{
+    width: 200px;
+    height: 56px;
+    background-color: #473BF0;
+    border-radius: 10px;
+    color: white;
+    border: none;
+   margin-left: 15em !important;
+}
+
+.text_logo{
+    font-size: 28px;
+    font-weight: 700;
+    font-family: "Rubik", sans-serif;
+    padding-left: 4em;
+}
+.text_logo2{
+    display: block;
+    font-size: 15px;
+    font-family:gilroy ;
+    width: 274px;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    opacity: 65%;
+}
+
+.d_list_title{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: gilroy;
+    line-height: 26px;
+    color: white;
+    opacity: 65%;
+}
+.d_list{
+    font-size: 17px;
+    font-weight: 300;
+    font-family:gilroy ;
+    line-height: 40px;
+    color: #FFFFFF;
+    opacity: 80%;
+}
+.footer_section1{
+    padding-top: 7em;
+}
+
+.footer_section2{
+    gap: 5em;
+    padding-top: 7em;
+}
+
+.footer_nav_list{
+   gap: 5em;
+}
+
+.footer_section{
+    background-color: #161C2D;
+    padding-bottom: 5em;
+}
+
+
+
+
+@media (min-width:730px) and (max-width:992px){
+    
+    .top-part{
+        padding-top:5px;
+        padding-left: 20px;
+       padding-right: 2.5em;
+    }
+    .text-her02{
+        font-size: 18px;
+        
+    }
+    .text-her03{
+        width: 80%;
+        font-size: 15px;
+        color: #161C2D;
+        opacity: 40%;
+        font-family:gilroysemibold ;
+    }
+
+    /* card_service sections */
+     .provide_services{
+        line-height: 1.5;
+        /* padding-left: 20px; */
+        width: 300px;  
+        font-size: 20px;   
+    }
+    .service_section{
+        padding-left: 9em;
+       }
+
+    .card_one, .card_two, .card_three{
+        width: 450px;
+        height: 483px;
+    }
+
+    /* review section */
+    .brainwave_review{
+        flex-direction: column;
+        align-items: center;
+        padding-left:10px;
+    }
+
+    .edit_publish{
+        
+        width: 100%;
+    }
+
+    /* about section */
+    .why_business_fails{
+        width: 100%;
+    }
+    .about_us_images{
+        flex-direction: column;
+        align-items: center;
+    } 
+    .man_image{
+        width: 100%;
+    }
+
+    .woman_image{
+        padding-top: 4em;
+        padding-right: 20px;
+        width: 100%;
+      }
+
+      .about_us_text{
+        width: 100%;
+        padding-top: 2em;
+    }
+    /* facts */
+    .facts{
+        flex-direction: column;
+        padding-left: 1em;  
+       }
+       .fact_number2{
+           width: 100%;
+       }
+       
+       /* why_choose_us_section */
+       .business_information{
+        padding-left: 5em !important;
+    }
+       .organized_task{
+        padding-top: 2em;
+    }
+
+    .lunch_project{
+        flex-direction: column;
+        padding-left: 4em;
+     }
+
+     .get_started_project_btn{
+        margin-left: 2em !important; 
+    }
+    /* work_section */
+    .work_layout {
+        padding-left: 7em;
+        width: 100%;
+        padding-right: 2em;
+    }
+
+    .work_layout_text1{
+        font-size: 15px;
+        font-family: gilroy;
+        padding-top: 2em;
+    }
+    .work_layout_text2{
+        font-size: 24px;
+        font-family:gilroybold ;
+        padding-top: 5px;
+        padding-bottom: 3em;
+    
+    }
+
+    .web_development{
+        padding-top: 6em;
+        padding-left: 3em;
+    }
+
+
+/* Testiomonial section */
+
+    .testimonial_text2{
+        width: 100%;
+    }
+
+    .testimonial_section{
+        padding-top: 7em;
+       
+    }
+
+    .testimonial_image{
+        padding-top: 7em;
+    }
+
+    
+    /* Footer section */
+
+    .lunch_project2{
+        flex-direction: column;
+        padding-left: 3em;
+        
+    }
+
+    .build_a_page2 {
+        width: 100%;
+        
+    }
+    .get_started_project_btn2{
+       margin-left: 10px !important;
+    }
+
+    .footer_section2{
+        flex-direction: column;
+        align-items: center;
+        
+
+    }
+    .footer_nav_list{
+        flex-direction: column;
+        
+    }
+   
+
+
+
+    
+    
+}
+
+
+
+
+@media  (max-width:600px){
+    .nav-item{
+        padding:0;
+    }
+
+    .top-part{
+        padding-top:5px;
+        padding-left: 20px;
+       padding-right: 1.5em;
+    }
+    .text-her02{
+        font-size: 18px;
+    }
+    .text-her03{
+        width: 80%;
+        font-size: 15px;
+        color: #161C2D;
+        opacity: 40%;
+        font-family:gilroysemibold ;
+    }
+ 
+
+    /* card_service sections */
+    .provide_services{
+        line-height: 1.5;
+        /* padding-left: 20px; */
+        width: 300px;  
+        font-size: 20px;
+        
+    }
+    .service_section{
+        padding-left: 2em;
+       }
+
+    .card_one, .card_two, .card_three{
+        width: 300px;
+        height: 483px;
+    }
+
+
+    /* review section */
+    .brainwave_review{
+        flex-direction: column;
+        align-items: center;
+        padding-left:10px;
+    }
+    .edit_publish{
+        font-size: 20px;
+        font-family:gilroysemibold ;
+        width: 100%;
+    }
+    .name_position{
+        flex-direction: column;
+    
+    }
+
+    /* about section */
+    .about{
+        padding-left: 2em;
+    }
+
+    .why_business_fails{
+        font-size: 23px;
+        width: 100%;
+    }
+    
+
+    .about_us_images{
+        flex-direction: column;
+        align-items: center;
+    } 
+    
+    .man_image{
+        width: 300px;
+    }
+    
+    .woman_image{
+      padding-top: 4em;
+      padding-right: 3em;
+      width: 300px;
+    }
+
+    .about_us_text{
+        width: 100%;
+        padding-top: 2em;
+    }
+    /* facts */
+    .facts{
+      flex-direction: column;
+      padding-left: 1em;
+    }
+
+    .fact_number2{
+        width: 100%;
+    }
+    
+    /* why_choose_us_section */
+    .choose_us_text{
+        font-size: 23px;
+        font-family: gilroysemibold;
+        width: 100%;
+        color: #161C2D;
+    }
+
+    .business_information{
+        padding-left: 2em !important;
+
+
+    }
+    .organized_task{
+        padding-top: 2em;
+    }
+
+    .dedicated_note{
+        font-size: 15px;
+        font-family: gilroysemibold;
+        font-weight: 900;
+
+    }
+
+    .unique_blocks{
+        display: block;
+        font-size: 10px;
+        font-family:gilroy ;
+        width: 100%;
+        opacity: 70%;
+        
+     }
+
+     .lunch_project{
+        flex-direction: column;
+        padding-left: 2em;
+       
+     }
+
+     .project_lunch{
+        font-size: 23px;
+     }
+
+
+     .build_a_page{
+        font-size: 15px;
+        width: 100%;
+        
+     }
+
+     .get_started_project_btn{
+        width: 150px;
+        height: 50px;
+        font-size: 10px;
+        margin-left: 2em !important;
+       
+    }
+    /* work_section */
+    .why_we_are_the_best{
+        font-size: 26px;
+        font-family: gilroybold;
+        width: 321px;
+    }
+   
+    .aura-branding, .snacks-packaging, .web-development, .content-writing{
+        width: 100%;
+    }
+
+    .web_development{
+        padding-top: 3em;
+        padding-left: 3em;
+    }
+   
+
+    .work_layout_text1{
+        font-size: 15px;
+        font-family: gilroy;
+        padding-top: 2em;
+    }
+    .work_layout_text2{
+        font-size: 24px;
+        font-family:gilroybold ;
+        padding-top: 5px;
+        padding-bottom: 3em;
+    
+    }
+
+    .work_layout {
+        padding-left: 2em;
+        width: 100%;
+        padding-right: 2em;
+    }
+    .work_section{
+        padding-top: 5em;
+    }
+    .see_all_con{
+        padding-top: 2em;
+    }
+    
+    /* Testiomonial section */
+
+    .testimonial_text2{
+        width: 100%;
+    }
+
+    .testimonial_section{
+        padding-top: 7em;
+       
+    }
+
+    .testimonial_image{
+        padding-top: 7em;
+    }
+
+    
+    /* footer section */
+
+    .lunch_project2{
+        flex-direction: column;
+        padding-left: 3em;
+    }
+
+    .build_a_page2 {
+        width: 100%;
+        
+    }
+    .get_started_project_btn2{
+        width: 200px;
+        height: 56px;
+        background-color: #473BF0;
+        border-radius: 10px;
+        color: white;
+        border: none;
+       margin-left: 10px !important;
+    }
+
+    .footer_section2{
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .footer_nav_list{
+        flex-direction: column;
+    }
+
+    .text_logo{
+        padding-left: 2em;
+    }
+
+   
+    
+
+    
+    
+   
+     
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
